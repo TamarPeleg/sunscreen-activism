@@ -1,0 +1,148 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+body {
+ background-color: lightgoldenrodyellow
+}
+
+/* STYLE TEXT */
+.intro {
+  padding:8px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#back {
+  color:lightgoldenrodyellow;
+  }
+}
+
+iframe {
+    display:block;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}
+
+li {
+  float:left;
+  width:33%;
+}
+
+li a {
+  display: block;
+  color: orange;
+  text-align:center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: darkred;
+}
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+.flexboxContainer {
+  display: flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+}
+.flexItem {
+  text-align: center;
+  flex-basis:100%;
+}
+
+.flexboxContainer2 {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+}
+
+.flexHalf {
+  flex-basis:50%;
+}
+
+.topicImage {
+  width:100%;
+  height:140px;
+}
+
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: table;
+}
+
+ .fixed-bg h1 {
+  display: table-cell;
+  vertical-align: middle;
+  color: darkred;
+  text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+  font-size: 225%;
+} 
+
+.scroll-bg {
+  background-color: lightorange;
+  padding: 10px 70px; 
+}
+
+.bg-1 {
+  background-image:url("assets/SSpage3.jpg");
+  height: 500px;
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: darkorange;
+  color: black;
+  padding: 18px;
+  width: 100%;
+  border: 1px;
+  text-align: left;
+  outline: none;
+  font-size:medium;
+}
+
+.content {
+  padding: 10px;
+  display: none;
+  overflow: hidden;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
